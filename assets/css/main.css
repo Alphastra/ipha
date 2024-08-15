@@ -891,7 +891,7 @@ section,
 }
 
 .hero .btn-get-started {
-  /* color: var(--contrast-color); */
+  color: var(--contrast-color);
   color: #ffffff;
   background: var(--accent-color);
   font-family: var(--heading-font);
@@ -1328,6 +1328,28 @@ section,
   background: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
+
+/*added by Abdelhak */
+
+.btn-submit{
+  border: none;
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+  font-size: 14px;
+  padding: 15px 32px;
+  margin: 0 0 0 10px;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn-submit:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
 
 /*--------------------------------------------------------------
   # Portfolio Section
